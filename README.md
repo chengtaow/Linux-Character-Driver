@@ -4,7 +4,7 @@ Copy the files char_driver.c, Makefile and userapp.c to a virtual linux machinea
 
 1) Compile driver module : $ make
 
-2) Load module : $ sudo insmod char_driver.ko NUM_DEVICES=<num_devices>
+2) Load module : $ sudo insmod char_ driver.ko     NUM_ DEVICES = <num_devices>
 
 3) Test driver :
 	1. Compile userapp : $ make app
